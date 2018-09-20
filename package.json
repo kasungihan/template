@@ -1,0 +1,23 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "\"This helpful you project\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasungihan/template.git"
+  },
+  "keywords": [
+    "kasun",
+    "template"
+  ],
+  "author": "Kasun Gihan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kasungihan/template/issues"
+  },
+  "homepage": "https://github.com/kasungihan/template#readme"
+}
