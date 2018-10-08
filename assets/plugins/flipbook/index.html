@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flip Book</title>
+	<link rel="stylesheet" type="text/css" href="css/dflip.css">
+	<link rel="stylesheet" type="text/css" href="css/book.css">
+</head>
+<body>
+<div class="_df_book" source="book.pdf" />
+<div id="flipbookContainer"></div>
+
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/dflip.js"></script>
+<script type="text/javascript" src="js/metaboxes.js"></script>
+<script type="text/javascript">
+	var flipBook = $('#flipbookContainer').flipBook('book.pdf')
+</script>
+</body>
+</html>
